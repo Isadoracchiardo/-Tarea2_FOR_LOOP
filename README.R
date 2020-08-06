@@ -16,7 +16,7 @@ listaDocumentos <- list(c("mp","Juan","Christofer"),c("of","av01","ampr"),c("of"
 
 mp <- 0
 niños<- 0
-totalpersonas <-0
+totalniños <-0
 
 for (enunciado_n in listaDocumentos) {
   if(enunciado_n [1]=="mp"){
