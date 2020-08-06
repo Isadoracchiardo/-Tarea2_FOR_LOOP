@@ -47,7 +47,7 @@ tema <- function(listaDocumentos){
 
 antecedentes <- ante
 datospersonales <- dape
-medidas cautelares <- meca
+medidascautelares <- meca
 audienciaderevisiondemedidas <- arme
 empliacionmedidasdeproteccion <- ampr
 
@@ -72,7 +72,7 @@ for (tematica in listaDocumentos) {
   } 
 }
 
-print(paste("son", oficiostotales, "oficios que estan:", aprobar, "aprobados", rechazar, "rechazardos"))
+print(paste("son", oficiostotales, "oficios que estan:", aprobar, "aprobados", rechazar, "rechazados"))
 
 
 
